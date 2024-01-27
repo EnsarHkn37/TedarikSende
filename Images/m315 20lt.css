@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color: #f89d49;
+    --black-color: #0e0e0e;
+    --border: 01.rem solid rgba(255, 255, 255, 0.4)
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    
+}
+
+html::-webkit-scrollbar{
+    width: 1.5rem;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(87deg, rgba(255,255,255,0.7231267507002801) 23%, rgba(248,157,73,0.76234243697479) 43%);
+
+}
+section{
+    padding: 3.5rem 7%;
+}
+a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+.btn{
+    margin-top: 3rem;
+    margin-right: 80px;
+    margin-left: -10px;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.heading{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid #8a3700;
+}
+.heading span{
+    color: var(--black-color);
+    text-transform: uppercase;
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize ;
+    transition: 0.2s ease;
+}
+.header .search-form{
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background-color: #fff;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 75%);
+    transform: scaleY(0);
+}
+
+.header .search-form .active{
+    transform: scaleY(1);
+}
+.header .search-form i{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black-color);
+}
+.header .search-form input{
+    width: 100%;
+}
+
+.header .logo img{
+    height: 6rem;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar .active{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+
+.header .navbar a:hover{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+
+.img-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+   border: 1px solid #cccccc;
+   width: 780px;
+   height: 610px;
+   margin-left: 90px;
+   margin-top: 90px;
+   background-repeat: no-repeat;
+}
+.img-container img{
+    width: 777px;
+    height: 605px;
+    margin-top: -28px;
+}
+
+
+
+
+
+
+.kutu{
+    padding:30px;
+    border:2px solid 
+#ff0000;
+    margin: 20;
+    width: 13rem;
+    height: 10rem;
+    margin-top: -4rem;
+    margin-left: -0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    border: 1px solid 
+ #cccccc;
+    margin: 20px;
+    width:780px;
+    height:610px;
+    margin-left: 110rem;
+    margin-top: -615px;
+}
+ .purchase-options{
+margin-right: -20rem;
+}
+.purchase-options .taksit{
+    font-size: 15px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: center;
+}
+.purchase-options{
+    margin-left: 300px;
+    font-weight: 900;
+}
+.description .container-title h3{
+    color: #000000;
+    margin-top: -12px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.description .kutu h3{
+    color: #ff0000;
+    margin-top: -5px;
+    margin-left: -9px;
+    font-size: 15px;
+}
+.description .Kategori {
+    color: #000000;
+    margin-top: 80px;
+    margin-right: 40rem;
+    font-size: 20px;
+    letter-spacing: px;
+    float: left;
+}
+.description .Marka {
+    color: #000000;
+    margin-top: 8px;
+    margin-right: 40rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.description p {
+    margin-top: -80px;
+    margin-left: -230px;
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff00009c;
+}
+.description h2{
+    color: rgba(13, 92, 13, 0.945);
+    margin-left: -12rem;
+    margin-top: -1px;
+    font-size: 23px;
+}
+
+span{
+    color: #ff5e00;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 610px;
+    margin-top: 10px;
+}
+.description .Fiyat{
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff0000;
+    
+}
+.footer{
+    background-color: var(--black-color);
+    text-align: center;
+    position: relative;
+}
+
+.footer .search{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .search .search-input{
+    width: 30rem;
+}
+
+.footer .search .btn-primary{
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+
+.footer .share{
+    padding: 2rem 0;
+}
+
+.footer .share a{
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+
+.footer .share a:hover{
+   background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer .links a{
+   background-color: var(--main-color);
+   padding: 0.7rem 2rem;
+   color: #fff;
+   font-size: 2rem;
+   border: var(--border);
+}
+
+.footer .links a:hover{
+   background-color: var(--black-color);
+   opacity: 0.7;
+ }
+
+ .footer .links a.active{
+   background-color: var(--black-color);
+ }
+
+ .footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1.5rem;
+ }
+
+ .footer .credit span{
+   color: var(--main-color);
+ }
+
+
+
+
+
